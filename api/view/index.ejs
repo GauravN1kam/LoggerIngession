@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Logs</title>
+</head>
+
+<body>
+    <h1>Search Logs</h1>
+
+    <form action="/search" method="POST">
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level"><br><br>
+
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message"><br><br>
+
+        <label for="resourceId">Resource ID:</label>
+        <input type="text" id="resourceId" name="resourceId"><br><br>
+
+        <label for="timestamp">Timestamp:</label>
+        <input type="text" id="timestamp" name="timestamp"><br><br>
+
+        <label for="traceId">Trace ID:</label>
+        <input type="text" id="traceId" name="traceId"><br><br>
+
+        <label for="spanId">Span ID:</label>
+        <input type="text" id="spanId" name="spanId"><br><br>
+
+        <label for="commit">Commit:</label>
+        <input type="text" id="commit" name="commit"><br><br>
+
+        <label for="parentResourceId">Parent Resource ID:</label>
+        <input type="text" id="parentResourceId" name="parentResourceId"><br><br>
+
+        <button type="submit">Search</button>
+    </form>
+</body>
+
+</html>
